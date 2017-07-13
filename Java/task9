@@ -1,0 +1,31 @@
+
+//constructor chaining
+class chain
+{
+  
+ chain()//working
+
+{
+  this(5);
+  System.out.println("iam calling a");
+}
+ chain(int a)
+{
+  this(6,7);
+  System.out.println("iam  calling b");
+}
+chain(int a,int b)
+{
+  System.out.println("iam the finishing");
+}
+}
+class main
+{
+
+  public static void main(String... a)
+  {
+new chain();//inside constuctor can be called using new only;
+
+
+  }
+  }
